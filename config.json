@@ -1,0 +1,44 @@
+{
+ "Account": { "Username": "Marixca",
+              "Password": "shilo3425"
+              },
+
+ "Interface":{ "Base Bet":"0.0001",
+               "Max Bet":"off",
+               "Chance":"49.95",
+               "Random":{"Auto": "on",
+                         "Min" : "17",
+                         "Max" : "45"
+                        },
+
+               "Cl_Seed":{"Auto"       :"on",
+                          "Every_Lose" : "2"
+                         }
+              },
+
+ "BetSet":{ "Bet"   : "L",
+            "H / L" :{"Auto"   : "on",
+                      "On Lose": "2",
+                      "On Win" : "3"
+                     }
+          },
+
+ "Increase" :{ "After Win"  : "2",
+               "After Lose" : "1.7"
+             },
+
+ "Reset"    :{ "If_Win"   : "1",
+               "If_Lose"  : "0"
+             },
+
+ "Stop"    :{ "Balance"  : "3000",
+              "If_Lose"  : "0",
+              "If_Prof"  : "1000"
+             },
+
+ "Withdraw" :{"Auto"   : "on",
+              "Initial": "0",
+              "Trigger": "50000.00000",
+              "Wallet" : "DJ7ayPJww6NLEA28aXpV55twhgjSbTw1jN"
+             }
+}
